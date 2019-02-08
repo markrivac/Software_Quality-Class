@@ -82,3 +82,12 @@ This is impossible, as soon as the program reaches the fault (which would be cal
 ##### Develop JUnit tests for the BoundedQueue class. A compilable version is available on the book website in the file BoundedQueue.java. Make sure your tests check every method, but we will not evaluate the quality of your test designs and do not expect you to satisfy any test criteria. Turn in a printout of your JUnit tests and either a printout or a screen shot showing the results of each test.
 
 Refer to BoundedQueue.java and BoundedQueueTest.java file in this folder. 
+
+#### Question 4.
+##### Delete the explicit throw of NullPointerException in the Min program. Verify that the JUnit test for a list with a single null element now fails. 
+
+Refer to Min.java and Mintest.java files in this folder
+
+Also here is included an image where it can be seen that the JUnit test indeed fails when removing the explicit throw of NullPointerException in the Min program.
+
+![JUnit test fails](junit-fails.png)
