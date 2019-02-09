@@ -18,6 +18,8 @@ Also Observability becomes an issue with inheritance for the same reason. If we 
 
 Refer to BoundedQueue.java and BoundedQueueTest.java file in this folder. 
 
+![Bounded Queue Tests](BoundedQueueTests.png)
+
 #### Question 4.
 ##### Delete the explicit throw of NullPointerException in the Min program. Verify that the JUnit test for a list with a single null element now fails. 
 
